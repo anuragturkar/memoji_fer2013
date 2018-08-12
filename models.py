@@ -26,7 +26,7 @@ class EmoNet():
 		#input_placeholder (b, input_size, input_size, 1)
 
 		if is_training:
-			dropout_placeholder = tf.placeholder(shape=[], dtype=tf.float32)
+		
 
 		n_filters = 16
 		last_size = self.input_size
